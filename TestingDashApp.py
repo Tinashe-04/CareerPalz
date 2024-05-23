@@ -146,4 +146,4 @@ def update_bar_graph_employer(selected_job_title):
     return fig
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=False, port=8051)
